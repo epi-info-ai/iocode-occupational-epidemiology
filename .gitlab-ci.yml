@@ -1,0 +1,4 @@
+verify-package:
+  image: node:24-alpine
+  script:
+    - node scripts/verify-package.mjs

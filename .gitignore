@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+*.dll
+*.bin
+*.onnx
+*.safetensors
+*.data
+*.wasm
+.secrets/
