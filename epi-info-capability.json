@@ -8,7 +8,8 @@
   "description": "Synthetic package-import pilot for the typed IOCODE capability boundary.",
   "source": {
     "authoritative": "https://git.cdc.gov/epi-info-ai/package-occupational-epidemiology",
-    "mirrors": ["https://github.com/epi-info-ai/iocode-occupational-epidemiology"]
+    "mirrors": ["https://github.com/epi-info-ai/iocode-occupational-epidemiology"],
+    "revision": "28b8862ca9da6c4d2374d8105863a6235ab1eaa5"
   },
   "license": "Apache-2.0",
   "compatibility": {
