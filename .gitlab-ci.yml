@@ -1,4 +1,22 @@
+stages:
+  - test
+  - secret-detection
+
 verify-package:
+  stage: test
   image: node:24-alpine
   script:
     - node scripts/verify-package.mjs
+
+sast:
+  stage: test
+
+secret_detection:
+  stage: secret-detection
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Security/Secret-Detection.gitlab-ci.yml
+
+variables:
+  SECRET_DETECTION_ENABLED: "true"

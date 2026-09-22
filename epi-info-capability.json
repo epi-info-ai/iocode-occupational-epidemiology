@@ -6,6 +6,10 @@
   "publisher": "org.cdc.epi-info-ai",
   "title": "Occupational Epidemiology: IOCODE",
   "description": "Synthetic package-import pilot for the typed IOCODE capability boundary.",
+  "source": {
+    "authoritative": "https://git.cdc.gov/epi-info-ai/package-occupational-epidemiology",
+    "mirrors": ["https://github.com/epi-info-ai/iocode-occupational-epidemiology"]
+  },
   "license": "Apache-2.0",
   "compatibility": {
     "application": ">=0.1.0 <0.2.0",

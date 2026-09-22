@@ -13,6 +13,16 @@ executable extension. Installing it may demonstrate manifest, digest,
 capability, compatibility, license, and validation-evidence checks. It must not
 enable occupational coding or produce codes.
 
+## Mirrors
+
+- Authoritative CDC GitLab repository:
+  `https://git.cdc.gov/epi-info-ai/package-occupational-epidemiology`
+- Public GitHub mirror:
+  `https://github.com/epi-info-ai/iocode-occupational-epidemiology`
+
+Published package versions must contain identical manifests and artifact
+digests on both hosts.
+
 ## Boundary
 
 Epi Info AI core owns the typed IOCODE grammar, seven-field validation,
